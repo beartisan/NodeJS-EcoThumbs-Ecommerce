@@ -1,0 +1,106 @@
+extends layout
+
+//- block append scripts 
+//-     script(src="/shop.js")
+
+block main-content 
+    div.hero
+        div.hero-title
+            h1.page-title ecothumbs
+            h2 Your Green Space
+            p Browse our quality selections
+
+
+block shop-content 
+    div.container-case
+    h2.label-case Plant Selection
+        div.plant-container
+            each p in plants 
+                div.plantcase
+                    p #{p.product}
+                    img(src=`/image/${p.image}`, class="plant-pics")
+                    p #{p.price}
+                    a.addCart(href='/cart')  Add to Cart
+
+                    
+
+//- block photos-content 
+//-     div.container-case
+//-     h2.label-case Plant Selection
+//-         div.plant-container
+//-             div.plantcase-1
+//-                 a(href="#")
+//-                     img(src="image/plant1-montsera.jpeg", alt="Montsera", width="150")
+//-                     p Montsera
+//-                     h3 $169.90
+//-                 //- source:  https://artiplanto.ae/products/tera-monstera-43-artificial-potted-plant-artiplanto
+//-             div.plantcase-2
+//-                 a(href="#")
+//-                     img(src="image/plant2-travellerspalmtree.jpeg", alt="Traveller's Palm Tree", width="150")
+//-                     p Traveller's Palm Tree
+//-                     h3 $189.00
+//-                 //- source:  https://artiplanto.ae/products/dani-travellers-palm-tree-6-5-artificial-potted-plant-artiplanto
+//-             div.plantcase-3
+//-                 a(href="#")
+//-                     img(src="image/plant3-arecapalm.jpeg", alt="Areca Palm Tree", width="150")
+//-                     p Areca Palm Tree
+//-                     h3 $174.99
+//-                 //- source:  https://artiplanto.ae/products/jule-artificial-areca-palm-tree-potted-plant-47
+//-             div.plantcase-4
+//-                 a(href="#")
+//-                     img(src="image/plant4-birdsofparadise.jpeg", alt="Birds of Paradise", width="150")
+//-                     p Birds of Paradise
+//-                     h3 $182.75
+//-                 //- source:  https://artiplanto.ae/products/zapo-bird-of-paradise-multiple-sizes-artificial-potted-plant-artiplanto
+//-             div.plantcase-5
+//-                 a(href="#")
+//-                     img(src="image/plant5-snakeplant.jpeg", alt="Snake Plant", width="150")
+//-                     p Snake Plant
+//-                     h3 $175.00
+//-                 //- source:  https://artiplanto.ae/products/milo-snake-sansevieria-dark-green-35-artificial-potted-plant-artiplanto
+//-             div.plantcase-6
+//-                 a(href="#")
+//-                     img(src="image/plant6-olivetree.webp", alt="Olive Tree", width="150")
+//-                     p Olive Tree
+//-                     h3 $145.00
+//-                 //- source:  https://artiplanto.ae/products/oli 
+                
+
+//-     h2.label-case Cactus and Succulents Collection 
+//-         div.cactus-container
+//-             div.cactuscase-1
+//-                 a(href="#")
+//-                     img(src="image/succ1jade.webp", alt="Jade Succulent", width="150")
+//-                     p Potted Jade Succulent
+//-                     h3 $70.00
+//-                 //- source:  https://piante.ca/products/6-jade?pr_prod_strat=copurchase&pr_rec_id=f9faa1cb3&pr_rec_pid=6259651281065&pr_ref_pid=6544137355433&pr_seq=uniform
+//-             div.cactuscase-2
+//-                 a(href="#")
+//-                     img(src="image/succ2.webp", alt="Fittonia", width="150")
+//-                     p Potted Fittonia
+//-                     h3 $84.99
+//-                 //- source: https://piante.ca/products/4-fittonia?pr_prod_strat=use_description&pr_rec_id=eefd3d4a3&pr_rec_pid=6440395276457&pr_ref_pid=6259651281065&pr_seq=uniform
+//-             div.cactuscase-3
+//-                 a(href="#")
+//-                     img(src="image/succ6cactus.webp", alt="Potted Cactus", width="150")
+//-                     p Potted Cactus
+//-                     h3 $81.99
+//-                 //- source:  https://piante.ca/products/25-hair-brush-cactus?_pos=9&_sid=b1e380b1a&_ss=r
+//-             div.cactuscase-4
+//-                 a(href="#")
+//-                     img(src="image/succ3ficus.webp", alt="Potted Ficus", width="150")
+//-                     p Potted Ficus
+//-                     h3 $85.99
+//-                 //- source:  https://piante.ca/products/4-variegated-triangularis-ficus?pr_prod_strat=copurchase&pr_rec_id=eefd3d4a3&pr_rec_pid=7947480891635&pr_ref_pid=6259651281065&pr_seq=uniform
+//-             div.cactuscase-5
+//-                 a(href="#")
+//-                     img(src="image/succ4gasteria.webp", alt="Potted Gasteria", width="150")
+//-                     p Potted Gasteria
+//-                     h3 $83.99
+//-                 //- source: https://piante.ca/products/25-gasteria-succulent?_pos=2&_sid=aa586d238&_ss=r 
+//-             div.cactuscase-6
+//-                 a(href="#")
+//-                     img(src="image/succ5haworthia.webp", alt="Potted Haworthia", width="150")
+//-                     p Potted Haworthia
+//-                     h3 $82.99
+//-                 //- source:  https://piante.ca/blogs/plant-care/haworthia?_pos=23&_sid=aa586d238&_ss=r

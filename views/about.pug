@@ -1,0 +1,24 @@
+extends layout 
+
+block append scripts 
+    //add more scripts to the scripts block from layout.pug
+    script(src="/about.js")
+
+block main-content 
+    div.hero
+        div.hero-title
+            h1.page-title ecothumbs
+            h2 Plant dreams
+            p Shop your dream case inCase.
+            a(href="/shop")
+                h4.label Shop Now
+
+    .content-wrapper 
+        h1.page-title Our Story
+                p.about Since 1980, we have been passionate about promoting sustainability through the beauty and benefits of plants. Our love for nature inspired us to start selling potted plants and succulents from our home, with a goal to make the world a greener place. We believe that having plants in your living space not only enhances your health and well-being, but also contributes to a better environment. That's why we've carefully curated a selection of lush, low-maintenance options that are perfect for busy people. Whether you're an experienced gardener or new to the world of indoor greenery, we've got something for everyone.
+                p.about At Ecothumbs, we take great pride in the quality of our plants and make sure each one is healthy and happy before it reaches your doorstep. We also offer helpful care instructions to ensure your new plant friend thrives in its new home.
+                p.about  As part of our mission to make the world a greener place, we donate 10% of every sale to organizations that support planting more trees and other initiatives related to plant production. We're excited to help you create a green corner in your home, bring a touch of nature into your life, and contribute to a sustainable future.
+
+                img.about(src="image/aboutphoto.webp", alt="About Photos", width="1150")
+
+                //- source: https://cdn.shopify.com/s/files/1/0507/0775/9293/files/home3_1640x.webp?v=1650895546

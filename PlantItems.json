@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "63e2e3eee9aa40e61ee367e7"
+  },
+  "product": "Montsera",
+  "image": "plant1-montsera.jpeg",
+  "price": "$175.00"
+},{
+  "_id": {
+    "$oid": "63e2f150e9aa40e61ee367e8"
+  },
+  "product": "Traveller's Palm Tree",
+  "image": "plant2-travellerspalmtree.jpeg",
+  "price": "$189.00"
+},{
+  "_id": {
+    "$oid": "63e2f39be9aa40e61ee367e9"
+  },
+  "product": "Areca Palm Tree",
+  "image": "plant3-arecapalm.jpeg",
+  "price": "$189.00"
+},{
+  "_id": {
+    "$oid": "63e70d2cfd9f69fc80856bec"
+  },
+  "product": "Birds of Paradise",
+  "image": "plant4-birdsofparadise.jpeg",
+  "price": "$194.99"
+},{
+  "_id": {
+    "$oid": "63e70d7ffd9f69fc80856bed"
+  },
+  "product": "Snake Plant",
+  "image": "plant5-snakeplant.jpeg",
+  "price": "$180.00"
+},{
+  "_id": {
+    "$oid": "63e70dc1fd9f69fc80856bee"
+  },
+  "product": "Olive Tree",
+  "image": "plant6-olivetree.webp",
+  "price": "$167.80"
+}]

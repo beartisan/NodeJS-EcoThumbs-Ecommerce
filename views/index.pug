@@ -1,0 +1,179 @@
+extends layout 
+
+block main-content 
+    div.hero
+        div.hero-title
+            h1.page-title ecothumbs
+            h2 Your Green Space
+            p Browse our quality selections
+            a(href="/shop")
+                h4.label Explore Now
+
+block hero-content 
+    div.hero-image
+        a(href="/shop")
+            img(src="image/heroimage.webp", class="hero-photo" alt="Hero Image")
+
+block shop-content
+    div.container-case
+        h2.label-case Plant Selection
+            div.plant-container
+                div.plantcase-1
+                    a(href="#")
+                        img(src="image/plant1-montsera.jpeg", alt="Montsera", width="250")
+                        p Montsera
+                        h3 $169.90
+                            .addCart
+                                a(href="/cart")
+                                    h4.addCart Add To Cart
+                    //- source:   https://artiplanto.ae/products/tera-monstera-43-artificial-potted-plant-artiplanto
+                div.plantcase-2
+                    a(href="#")
+                        img(src="image/plant2-travellerspalmtree.jpeg", alt="Traveller's Palm Tree", width="250")
+                        p Traveller's Palm Tree
+                        h3 $189.00
+                            .addCart
+                                a(href="/cart")
+                                    h4.addCart Add To Cart
+                    //- source:  https://artiplanto.ae/products/dani-travellers-palm-tree-6-5-artificial-potted-plant-artiplanto  
+                div.plantcase-3
+                    a(href="#")
+                        img(src="image/plant3-arecapalm.jpeg", alt="Areca Palm Tree", width="250")
+                        p Areca Palm Tree
+                        h3 $174.99
+                            .addCart
+                                a(href="/cart")
+                                    h4.addCart Add To Cart
+                    //- source:  https://artiplanto.ae/products/jule-artificial-areca-palm-tree-potted-plant-47
+            a(href="/shop")
+                h4.label-show SHOW MORE
+
+        h2.label-case Cactus and Succulents Collection   
+            div.cactus-container
+                div.cactuscase-1
+                    a(href="#")
+                        img(src="image/succ1jade.webp", alt="Jade Succulent", width="250")
+                        p Potted Jade Succulent
+                        h3 $70.00
+                            .addCart
+                                a(href="/cart")
+                                    h4.addCart Add To Cart
+                    //- source: https://piante.ca/products/6-jade?pr_prod_strat=copurchase&pr_rec_id=f9faa1cb3&pr_rec_pid=6259651281065&pr_ref_pid=6544137355433&pr_seq=uniform 
+                div.cactuscase-2
+                    a(href="#")
+                        img(src="image/succ2.webp", alt="Fittonia", width="250")
+                        p Potted Fittonia
+                        h3 $84.99
+                            .addCart
+                                a(href="/cart")
+                                    h4.addCart Add To Cart
+                    //- source: https://piante.ca/products/4-fittonia?pr_prod_strat=use_description&pr_rec_id=eefd3d4a3&pr_rec_pid=6440395276457&pr_ref_pid=6259651281065&pr_seq=uniform 
+                div.cactuscase-3
+                    a(href="#")
+                        img(src="image/succ6cactus.webp", alt="Potted Cactus", width="250")
+                        p Potted Cactus
+                        h3 $81.99
+                            .addCart
+                                a(href="/cart")
+                                    h4.addCart Add To Cart
+                    //- source:  https://piante.ca/products/25-hair-brush-cactus?_pos=9&_sid=b1e380b1a&_ss=r
+            a(href="/shop")
+                h4.label-show SHOW MORE
+
+
+    //- #about
+    //-     .content-wrapper 
+    //-         h1.page-title Our Story
+    //-             p.about Since 1980, we have been passionate about promoting sustainability through the beauty and benefits of plants. Our love for nature inspired us to start selling potted plants and succulents from our home, with a goal to make the world a greener place. We believe that having plants in your living space not only enhances your health and well-being, but also contributes to a better environment. That's why we've carefully curated a selection of lush, low-maintenance options that are perfect for busy people. Whether you're an experienced gardener or new to the world of indoor greenery, we've got something for everyone.
+    //-             p.about At Ecothumbs, we take great pride in the quality of our plants and make sure each one is healthy and happy before it reaches your doorstep. We also offer helpful care instructions to ensure your new plant friend thrives in its new home.
+    //-             p.about  As part of our mission to make the world a greener place, we donate 10% of every sale to organizations that support planting more trees and other initiatives related to plant production. We're excited to help you create a green corner in your home, bring a touch of nature into your life, and contribute to a sustainable future.
+
+    //-             img.about(src="image/aboutphoto.webp", alt="About Photos", width="1150")
+
+    //- div.container-case
+    //- h2.label-case Shop for Plants
+    //-     div.plant-container
+    //-         each p in plants 
+    //-             div.plantcase
+    //-                 p #{p.product}
+    //-                 img(src=`/image/${p.image}`, class="plant-pics")
+    //-                 p #{p.price}
+    //-                 a.addCart(href='/cart')  Add to Cart
+
+    
+
+//- block photos-content 
+    div.container-case
+    h2.label-case Plant Selection
+        div.plant-container
+            div.plantcase-1
+                a(href="#")
+                    img(src="image/plant1-montsera.jpeg", alt="Montsera", width="250")
+                    p Montsera
+                    h3 $169.90
+                        .addCart
+                            a(href="/cart")
+                                h4.addCart Add To Cart
+                //- source:   https://artiplanto.ae/products/tera-monstera-43-artificial-potted-plant-artiplanto
+            div.plantcase-2
+                a(href="#")
+                    img(src="image/plant2-travellerspalmtree.jpeg", alt="Traveller's Palm Tree", width="250")
+                    p Traveller's Palm Tree
+                    h3 $189.00
+                        .addCart
+                            a(href="/cart")
+                                h4.addCart Add To Cart
+                //- source:  https://artiplanto.ae/products/dani-travellers-palm-tree-6-5-artificial-potted-plant-artiplanto  
+            div.plantcase-3
+                a(href="#")
+                    img(src="image/plant3-arecapalm.jpeg", alt="Areca Palm Tree", width="250")
+                    p Areca Palm Tree
+                    h3 $174.99
+                        .addCart
+                            a(href="/cart")
+                                h4.addCart Add To Cart
+                //- source:  https://artiplanto.ae/products/jule-artificial-areca-palm-tree-potted-plant-47
+        a(href="/shop")
+            h4.label-show SHOW MORE
+
+    h2.label-case Cactus and Succulents Collection   
+        div.cactus-container
+            div.cactuscase-1
+                a(href="#")
+                    img(src="image/succ1jade.webp", alt="Jade Succulent", width="250")
+                    p Potted Jade Succulent
+                    h3 $70.00
+                        .addCart
+                            a(href="/cart")
+                                h4.addCart Add To Cart
+                //- source: https://piante.ca/products/6-jade?pr_prod_strat=copurchase&pr_rec_id=f9faa1cb3&pr_rec_pid=6259651281065&pr_ref_pid=6544137355433&pr_seq=uniform 
+            div.cactuscase-2
+                a(href="#")
+                    img(src="image/succ2.webp", alt="Fittonia", width="250")
+                    p Potted Fittonia
+                    h3 $84.99
+                        .addCart
+                            a(href="/cart")
+                                h4.addCart Add To Cart
+                //- source: https://piante.ca/products/4-fittonia?pr_prod_strat=use_description&pr_rec_id=eefd3d4a3&pr_rec_pid=6440395276457&pr_ref_pid=6259651281065&pr_seq=uniform 
+            div.cactuscase-3
+                a(href="#")
+                    img(src="image/succ6cactus.webp", alt="Potted Cactus", width="250")
+                    p Potted Cactus
+                    h3 $81.99
+                        .addCart
+                            a(href="/cart")
+                                h4.addCart Add To Cart
+                //- source:  https://piante.ca/products/25-hair-brush-cactus?_pos=9&_sid=b1e380b1a&_ss=r
+        a(href="/shop")
+            h4.label-show SHOW MORE
+
+
+    #about
+        .content-wrapper 
+            h1.page-title Our Story
+                p.about Since 1980, we have been passionate about promoting sustainability through the beauty and benefits of plants. Our love for nature inspired us to start selling potted plants and succulents from our home, with a goal to make the world a greener place. We believe that having plants in your living space not only enhances your health and well-being, but also contributes to a better environment. That's why we've carefully curated a selection of lush, low-maintenance options that are perfect for busy people. Whether you're an experienced gardener or new to the world of indoor greenery, we've got something for everyone.
+                p.about At Ecothumbs, we take great pride in the quality of our plants and make sure each one is healthy and happy before it reaches your doorstep. We also offer helpful care instructions to ensure your new plant friend thrives in its new home.
+                p.about  As part of our mission to make the world a greener place, we donate 10% of every sale to organizations that support planting more trees and other initiatives related to plant production. We're excited to help you create a green corner in your home, bring a touch of nature into your life, and contribute to a sustainable future.
+
+                img.about(src="image/aboutphoto.webp", alt="About Photos", width="1150")
