@@ -12,8 +12,8 @@ Home page
 
 Shop: with more items!
 ![Screenshot 2023-05-30 at 20 49 31](https://github.com/beartisan/NodeJS-EcoThumbs-Ecommerce/assets/113320828/2f268061-b745-468c-a6a3-292d5b425637)
+![Screenshot 2023-05-30 at 20 49 36](https://github.com/beartisan/NodeJS-EcoThumbs-Ecommerce/assets/113320828/cd9e3270-8bc0-4f61-9899-19e47877fe6b)
 
-![Screenshot 2023-05-30 at 20 49 36](https://github.com/beartisan/NodeJS-EcoThumbs-Ecommerce/assets/113320828/968e033c-75d9-4461-93d4-128b802b850d)
 
 About Page
 
