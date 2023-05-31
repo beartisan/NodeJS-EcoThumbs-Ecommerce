@@ -13,14 +13,28 @@ block main-content
 
 block shop-content 
     div.container-case
-    h2.label-case Plant Selection
+        h2.label-case Plant Selection
         div.plant-container
             each p in plants 
                 div.plantcase
-                    p #{p.product}
+                    h2 #{p.product}
                     img(src=`/image/${p.image}`, class="plant-pics")
                     p #{p.price}
-                    a.addCart(href='/cart')  Add to Cart
+                    div.addCart
+                        a(href='/cart')
+                            h4.addCart Add To Cart
+    
+    
+        h2.label-case Cactus Selection
+        div.cactus-container
+            each c in cactus 
+                div.cactuscase
+                    h2 #{c.product}
+                    img(src=`/image/${c.image}`, class="cactus-pics")
+                    p #{c.price}
+                    div.addCart
+                        a(href='/cart')
+                            h4.addCart Add To Cart
 
                     
 
